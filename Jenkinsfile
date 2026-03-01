@@ -11,8 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing from GitHub'
-            }
-        }
+        }  
 
         stage('Deploy') {
             steps {
